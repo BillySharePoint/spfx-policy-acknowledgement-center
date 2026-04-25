@@ -1,0 +1,146 @@
+[
+    {
+        "Title": "Information Security Policy",
+        "PolicyId": "POL-SEC-001",
+        "PolicyCategory": "Security",
+        "PolicyVersion": "1.0",
+        "IsRequired": true,
+        "IsActive": true,
+        "DueDate": "2026-06-30",
+        "TargetDepartments": [],
+        "PolicyDescription": "Defines employee responsibilities for protecting company information and systems. Covers data security best practices, password management, and incident reporting.",
+        "PolicyDocumentUrl": "https://yourtenant.sharepoint.com/sites/policies/Documents/InfoSecPolicy.pdf",
+        "AcknowledgementText": "I confirm that I have read and understood the Information Security Policy and agree to comply with its requirements.",
+        "SortOrder": 1
+    },
+    {
+        "Title": "Remote Work Policy",
+        "PolicyId": "POL-HR-001",
+        "PolicyCategory": "HR",
+        "PolicyVersion": "2.0",
+        "IsRequired": true,
+        "IsActive": true,
+        "DueDate": "2026-05-31",
+        "TargetDepartments": [],
+        "PolicyDescription": "Explains expectations, eligibility, and security requirements for remote work. Includes guidelines for home office setup, working hours, and communication expectations.",
+        "PolicyDocumentUrl": "https://yourtenant.sharepoint.com/sites/policies/Documents/RemoteWorkPolicy.pdf",
+        "AcknowledgementText": "I confirm that I have read and understood the Remote Work Policy and agree to comply with its requirements.",
+        "SortOrder": 2
+    },
+    {
+        "Title": "AI Usage Policy",
+        "PolicyId": "POL-IT-001",
+        "PolicyCategory": "IT",
+        "PolicyVersion": "1.0",
+        "IsRequired": true,
+        "IsActive": true,
+        "DueDate": "2026-07-15",
+        "TargetDepartments": [
+            "Information Technology",
+            "Marketing",
+            "Operations"
+        ],
+        "PolicyDescription": "Provides guidelines for responsible use of generative AI tools in the workplace. Covers approved tools, data handling restrictions, and quality review requirements.",
+        "PolicyDocumentUrl": "https://yourtenant.sharepoint.com/sites/policies/Documents/AIUsagePolicy.pdf",
+        "AcknowledgementText": "I confirm that I have read and understood the AI Usage Policy and agree to use AI tools responsibly.",
+        "SortOrder": 3
+    },
+    {
+        "Title": "Data Handling and Classification Policy",
+        "PolicyId": "POL-SEC-002",
+        "PolicyCategory": "Security",
+        "PolicyVersion": "1.1",
+        "IsRequired": true,
+        "IsActive": true,
+        "DueDate": "2026-06-15",
+        "TargetDepartments": [],
+        "PolicyDescription": "Outlines how to classify, handle, and protect company and customer data. Defines data classification levels (Public, Internal, Confidential, Restricted) and handling procedures.",
+        "PolicyDocumentUrl": "https://yourtenant.sharepoint.com/sites/policies/Documents/DataHandlingPolicy.pdf",
+        "SortOrder": 4
+    },
+    {
+        "Title": "Code of Conduct",
+        "PolicyId": "POL-HR-002",
+        "PolicyCategory": "HR",
+        "PolicyVersion": "3.0",
+        "IsRequired": true,
+        "IsActive": true,
+        "DueDate": "2026-09-30",
+        "TargetDepartments": [],
+        "PolicyDescription": "Establishes ethical standards and expected behavior for all employees. Covers conflict of interest, harassment, diversity and inclusion, and gifts and entertainment.",
+        "PolicyDocumentUrl": "https://yourtenant.sharepoint.com/sites/policies/Documents/CodeOfConduct.pdf",
+        "SortOrder": 5
+    },
+    {
+        "Title": "Acceptable Use Policy",
+        "PolicyId": "POL-IT-002",
+        "PolicyCategory": "IT",
+        "PolicyVersion": "2.0",
+        "IsRequired": true,
+        "IsActive": true,
+        "DueDate": "2026-06-30",
+        "TargetDepartments": [],
+        "PolicyDescription": "Defines acceptable use of company IT resources including computers, networks, and software. Outlines prohibited activities and monitoring practices.",
+        "PolicyDocumentUrl": "https://yourtenant.sharepoint.com/sites/policies/Documents/AcceptableUsePolicy.pdf",
+        "SortOrder": 6
+    },
+    {
+        "Title": "Records Retention Policy",
+        "PolicyId": "POL-COMP-001",
+        "PolicyCategory": "Compliance",
+        "PolicyVersion": "1.0",
+        "IsRequired": false,
+        "IsActive": true,
+        "DueDate": "2026-10-31",
+        "TargetDepartments": [
+            "Legal",
+            "Finance",
+            "Human Resources"
+        ],
+        "PolicyDescription": "Specifies how long business records must be retained and guidelines for disposal. Covers email retention, document archiving, and legal hold procedures.",
+        "PolicyDocumentUrl": "https://yourtenant.sharepoint.com/sites/policies/Documents/RecordsRetentionPolicy.pdf",
+        "SortOrder": 7
+    },
+    {
+        "Title": "Workplace Safety Procedures",
+        "PolicyId": "POL-OPS-001",
+        "PolicyCategory": "Operations",
+        "PolicyVersion": "1.0",
+        "IsRequired": true,
+        "IsActive": true,
+        "DueDate": "2026-05-15",
+        "TargetDepartments": [
+            "Operations",
+            "Facilities"
+        ],
+        "PolicyDescription": "Outlines safety procedures, emergency protocols, and workplace hazard reporting. Includes fire evacuation procedures, first aid, and incident reporting.",
+        "PolicyDocumentUrl": "https://yourtenant.sharepoint.com/sites/policies/Documents/SafetyProcedures.pdf",
+        "SortOrder": 8
+    },
+    {
+        "Title": "Privacy Policy",
+        "PolicyId": "POL-LEGAL-001",
+        "PolicyCategory": "Legal",
+        "PolicyVersion": "2.1",
+        "IsRequired": true,
+        "IsActive": true,
+        "DueDate": "2026-05-31",
+        "TargetDepartments": [],
+        "PolicyDescription": "Describes how the organization collects, uses, and protects personal data. Covers GDPR compliance, data subject rights, and breach notification procedures.",
+        "PolicyDocumentUrl": "https://yourtenant.sharepoint.com/sites/policies/Documents/PrivacyPolicy.pdf",
+        "SortOrder": 9
+    },
+    {
+        "Title": "Travel and Expense Policy",
+        "PolicyId": "POL-FIN-001",
+        "PolicyCategory": "Finance",
+        "PolicyVersion": "1.0",
+        "IsRequired": false,
+        "IsActive": true,
+        "DueDate": null,
+        "TargetDepartments": [],
+        "PolicyDescription": "Guidelines for business travel, expense reporting, and reimbursement procedures. Covers airfare, hotels, meals, and approval workflows.",
+        "PolicyDocumentUrl": "https://yourtenant.sharepoint.com/sites/policies/Documents/TravelExpensePolicy.pdf",
+        "SortOrder": 10
+    }
+]

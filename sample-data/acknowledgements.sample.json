@@ -1,0 +1,74 @@
+[
+    {
+        "Title": "Information Security Policy - john.doe@contoso.com - v1.0",
+        "PolicyTitleSnapshot": "Information Security Policy",
+        "PolicyVersion": "1.0",
+        "EmployeeEmail": "john.doe@contoso.com",
+        "EmployeeDisplayName": "John Doe",
+        "Department": "Information Technology",
+        "JobTitle": "Software Developer",
+        "AcknowledgedDate": "2026-04-10T14:30:00Z",
+        "AcknowledgementStatus": "Acknowledged",
+        "Comments": ""
+    },
+    {
+        "Title": "Remote Work Policy - john.doe@contoso.com - v2.0",
+        "PolicyTitleSnapshot": "Remote Work Policy",
+        "PolicyVersion": "2.0",
+        "EmployeeEmail": "john.doe@contoso.com",
+        "EmployeeDisplayName": "John Doe",
+        "Department": "Information Technology",
+        "JobTitle": "Software Developer",
+        "AcknowledgedDate": "2026-04-12T09:15:00Z",
+        "AcknowledgementStatus": "Acknowledged",
+        "Comments": ""
+    },
+    {
+        "Title": "Information Security Policy - jane.smith@contoso.com - v1.0",
+        "PolicyTitleSnapshot": "Information Security Policy",
+        "PolicyVersion": "1.0",
+        "EmployeeEmail": "jane.smith@contoso.com",
+        "EmployeeDisplayName": "Jane Smith",
+        "Department": "Human Resources",
+        "JobTitle": "HR Manager",
+        "AcknowledgedDate": "2026-04-08T10:00:00Z",
+        "AcknowledgementStatus": "Acknowledged",
+        "Comments": ""
+    },
+    {
+        "Title": "Code of Conduct - jane.smith@contoso.com - v3.0",
+        "PolicyTitleSnapshot": "Code of Conduct",
+        "PolicyVersion": "3.0",
+        "EmployeeEmail": "jane.smith@contoso.com",
+        "EmployeeDisplayName": "Jane Smith",
+        "Department": "Human Resources",
+        "JobTitle": "HR Manager",
+        "AcknowledgedDate": "2026-04-05T11:30:00Z",
+        "AcknowledgementStatus": "Acknowledged",
+        "Comments": "Reviewed during team meeting."
+    },
+    {
+        "Title": "AI Usage Policy - alex.johnson@contoso.com - v1.0",
+        "PolicyTitleSnapshot": "AI Usage Policy",
+        "PolicyVersion": "1.0",
+        "EmployeeEmail": "alex.johnson@contoso.com",
+        "EmployeeDisplayName": "Alex Johnson",
+        "Department": "Marketing",
+        "JobTitle": "Marketing Specialist",
+        "AcknowledgedDate": "2026-04-15T16:45:00Z",
+        "AcknowledgementStatus": "Acknowledged",
+        "Comments": ""
+    },
+    {
+        "Title": "Acceptable Use Policy - mike.wilson@contoso.com - v2.0",
+        "PolicyTitleSnapshot": "Acceptable Use Policy",
+        "PolicyVersion": "2.0",
+        "EmployeeEmail": "mike.wilson@contoso.com",
+        "EmployeeDisplayName": "Mike Wilson",
+        "Department": "Operations",
+        "JobTitle": "Operations Manager",
+        "AcknowledgedDate": "2026-04-18T08:00:00Z",
+        "AcknowledgementStatus": "Acknowledged",
+        "Comments": ""
+    }
+]

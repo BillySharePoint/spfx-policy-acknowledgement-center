@@ -1,0 +1,46 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-policy-acknowledgement-center-client-side-solution",
+    "id": "0daa53c3-4cad-4056-b811-4018d425367b",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.22.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Manage policy acknowledgements and compliance tracking in SharePoint Online"
+      },
+      "longDescription": {
+        "default": "SPFx Policy Acknowledgement Center is an open-source SharePoint Framework solution that helps organizations publish policies, collect employee acknowledgements, and track compliance directly in SharePoint Online. Includes employee-facing policy acknowledgement and admin compliance dashboard web parts."
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "User.Read"
+      }
+    ],
+    "features": [
+      {
+        "title": "spfx-policy-acknowledgement-center Feature",
+        "description": "The feature that activates elements of the spfx-policy-acknowledgement-center solution.",
+        "id": "8b847dce-0b82-4f33-88eb-3520e0066f35",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-policy-acknowledgement-center.sppkg"
+  }
+}

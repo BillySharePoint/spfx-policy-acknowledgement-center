@@ -1,0 +1,23 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "whichFolder": "subdir",
+    "solutionName": "spfx-policy-acknowledgement-center",
+    "isDomainIsolated": false,
+    "useGulp": false,
+    "componentType": "webpart",
+    "template": "react",
+    "componentName": "PolicyAcknowledgement",
+    "componentDescription": "Employee-facing web part for viewing and acknowledging company policies",
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "22.22.0",
+    "sdksVersions": {},
+    "version": "1.22.2",
+    "libraryName": "spfx-policy-acknowledgement-center",
+    "libraryId": "0daa53c3-4cad-4056-b811-4018d425367b",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionShortDescription": "spfx-policy-acknowledgement-center description",
+    "skipFeatureDeployment": true
+  }
+}

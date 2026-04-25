@@ -1,0 +1,231 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.policyComplianceDashboard {
+    padding: 20px;
+    color: var(--bodyText, "[theme:bodyText, default: #323130]");
+    max-width: 1400px;
+    margin: 0 auto;
+
+    &.teams {
+        padding: 16px;
+    }
+}
+
+/* Header */
+.header {
+    margin-bottom: 24px;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 600;
+    margin: 0 0 4px 0;
+    color: "[theme:themePrimary, default: #0078d4]";
+}
+
+.subtitle {
+    font-size: 14px;
+    color: "[theme:neutralSecondary, default: #605e5c]";
+    margin: 0;
+}
+
+/* Spinner */
+.spinnerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+}
+
+/* Metric Cards */
+.metricCards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.metricCard {
+    background: "[theme:neutralLighter, default: #f3f2f1]";
+    border-radius: 8px;
+    padding: 24px 20px;
+    text-align: center;
+    border-top: 4px solid transparent;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+
+    &:hover {
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+        transform: translateY(-2px);
+    }
+}
+
+.metricBlue {
+    border-top-color: #0078d4;
+}
+
+.metricGreen {
+    border-top-color: #107c10;
+}
+
+.metricPurple {
+    border-top-color: #8764b8;
+}
+
+.metricOrange {
+    border-top-color: #ca5010;
+}
+
+.metricNumber {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 8px;
+}
+
+.metricBlue .metricNumber {
+    color: #0078d4;
+}
+
+.metricGreen .metricNumber {
+    color: #107c10;
+}
+
+.metricPurple .metricNumber {
+    color: #8764b8;
+}
+
+.metricOrange .metricNumber {
+    color: #ca5010;
+}
+
+.metricLabel {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: "[theme:neutralSecondary, default: #605e5c]";
+}
+
+/* Command Bar */
+.commandBar {
+    margin-bottom: 12px;
+}
+
+/* Filter Bar */
+.filterBar {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.searchBox {
+    flex: 1;
+    min-width: 200px;
+}
+
+.filterDropdown {
+    min-width: 160px;
+}
+
+/* Empty State */
+.emptyState {
+    text-align: center;
+    padding: 48px 24px;
+    color: "[theme:neutralSecondary, default: #605e5c]";
+
+    p {
+        font-size: 14px;
+    }
+}
+
+/* Data Table */
+.dataTable {
+    margin-top: 8px;
+}
+
+.policyLink {
+    color: "[theme:themePrimary, default: #0078d4]";
+    cursor: pointer;
+    font-weight: 600;
+
+    &:hover {
+        text-decoration: underline;
+        color: "[theme:themeDarker, default: #004578]";
+    }
+}
+
+/* Badges */
+.requiredBadge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-size: 11px;
+    font-weight: 600;
+    background-color: #deecf9;
+    color: #0078d4;
+}
+
+.optionalBadge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-size: 11px;
+    font-weight: 600;
+    background-color: #e8daef;
+    color: #8764b8;
+}
+
+/* Panel */
+.panelContent {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.panelMeta {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.panelMetaItem {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+}
+
+.metaLabel {
+    font-weight: 600;
+    min-width: 80px;
+}
+
+.panelActions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h3 {
+        margin: 0;
+        font-size: 16px;
+        font-weight: 600;
+    }
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+    .metricCards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .filterBar {
+        flex-direction: column;
+    }
+
+    .searchBox {
+        min-width: 100%;
+    }
+}

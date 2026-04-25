@@ -1,0 +1,358 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.policyAcknowledgement {
+  padding: 20px;
+  color: var(--bodyText, "[theme:bodyText, default: #323130]");
+  max-width: 1200px;
+  margin: 0 auto;
+
+  &.teams {
+    padding: 16px;
+  }
+}
+
+/* Header */
+.header {
+  margin-bottom: 24px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 600;
+  margin: 0 0 4px 0;
+  color: "[theme:themePrimary, default: #0078d4]";
+}
+
+.subtitle {
+  font-size: 14px;
+  color: "[theme:neutralSecondary, default: #605e5c]";
+  margin: 0;
+}
+
+/* Spinner */
+.spinnerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+}
+
+/* Summary Cards */
+.summaryCards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.summaryCard {
+  background: "[theme:neutralLighter, default: #f3f2f1]";
+  border-radius: 8px;
+  padding: 20px 16px;
+  text-align: center;
+  border-left: 4px solid transparent;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+
+  &:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+    transform: translateY(-1px);
+  }
+}
+
+.summaryRequired {
+  border-left-color: #0078d4;
+}
+
+.summaryAcknowledged {
+  border-left-color: #107c10;
+}
+
+.summaryOverdue {
+  border-left-color: #d13438;
+}
+
+.summaryOptionalCard {
+  border-left-color: #8764b8;
+}
+
+.summaryNumber {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 4px;
+}
+
+.summaryRequired .summaryNumber {
+  color: #0078d4;
+}
+
+.summaryAcknowledged .summaryNumber {
+  color: #107c10;
+}
+
+.summaryOverdue .summaryNumber {
+  color: #d13438;
+}
+
+.summaryOptionalCard .summaryNumber {
+  color: #8764b8;
+}
+
+.summaryLabel {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: "[theme:neutralSecondary, default: #605e5c]";
+}
+
+/* Filter Bar */
+.filterBar {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.searchBox {
+  flex: 1;
+  min-width: 200px;
+}
+
+.filterDropdown {
+  min-width: 160px;
+}
+
+/* Pivot / Tabs */
+.pivot {
+  margin-bottom: 20px;
+}
+
+/* Empty State */
+.emptyState {
+  text-align: center;
+  padding: 48px 24px;
+  color: "[theme:neutralSecondary, default: #605e5c]";
+
+  p {
+    font-size: 14px;
+  }
+}
+
+/* Card Grid */
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 16px;
+}
+
+/* Policy Card */
+.policyCard {
+  background: "[theme:white, default: #ffffff]";
+  border: 1px solid "[theme:neutralLight, default: #edebe9]";
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+
+  &:hover {
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+    border-color: "[theme:themePrimary, default: #0078d4]";
+  }
+}
+
+.cardHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.cardTitleRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.cardTitle {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+  flex: 1;
+  line-height: 1.3;
+}
+
+.cardMeta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  font-size: 12px;
+  color: "[theme:neutralSecondary, default: #605e5c]";
+}
+
+.cardCategory,
+.cardVersion,
+.cardRequired {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.cardRequired {
+  color: #d13438;
+  font-weight: 600;
+}
+
+.metaIcon {
+  font-size: 12px;
+}
+
+.cardBody {
+  flex: 1;
+}
+
+.cardDescription {
+  font-size: 13px;
+  color: "[theme:neutralSecondary, default: #605e5c]";
+  margin: 0 0 8px 0;
+  line-height: 1.5;
+}
+
+.cardDetails {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  font-size: 12px;
+  color: "[theme:neutralTertiary, default: #a19f9d]";
+}
+
+.cardDueDate,
+.cardOwner,
+.cardAckDate {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.cardActions {
+  display: flex;
+  gap: 8px;
+  padding-top: 8px;
+  border-top: 1px solid "[theme:neutralLight, default: #edebe9]";
+}
+
+/* Status Badges */
+.badge {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 12px;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  white-space: nowrap;
+}
+
+.badgeAcknowledged {
+  background-color: #dff6dd;
+  color: #107c10;
+}
+
+.badgeNotStarted {
+  background-color: #deecf9;
+  color: #0078d4;
+}
+
+.badgeOverdue {
+  background-color: #fde7e9;
+  color: #d13438;
+}
+
+.badgeOptional {
+  background-color: #e8daef;
+  color: #8764b8;
+}
+
+.badgeExpired {
+  background-color: #edebe9;
+  color: #605e5c;
+}
+
+/* Panel */
+.panelContent {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.panelMeta {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.panelMetaItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+}
+
+.metaLabel {
+  font-weight: 600;
+  min-width: 100px;
+}
+
+.sectionTitle {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.policyDescription {
+  font-size: 14px;
+  line-height: 1.6;
+  color: "[theme:neutralPrimary, default: #323130]";
+}
+
+.acknowledgementSection {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+  background: "[theme:neutralLighter, default: #f3f2f1]";
+  border-radius: 8px;
+}
+
+.ackCheckbox {
+  font-weight: 600;
+}
+
+.panelFooter {
+  display: flex;
+  gap: 8px;
+  padding: 16px 0;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  .summaryCards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cardGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .filterBar {
+    flex-direction: column;
+  }
+
+  .searchBox {
+    min-width: 100%;
+  }
+}
