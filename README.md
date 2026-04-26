@@ -38,17 +38,17 @@ The SPFx Policy Acknowledgement Center provides:
 
 ## Screenshots
 
-> Screenshots will be added after deployment to a SharePoint environment.
+### Policy Acknowledgement Screen (End User)
+![Policy Acknowledgement screen for end user](Screenshot/Policy%20Acknowledgement%20screen%20for%20end%20user.png)
 
-| View | Description |
-|------|-------------|
-| Employee Policy List | _Screenshot placeholder_ |
-| Policy Detail Panel | _Screenshot placeholder_ |
-| Acknowledgement History | _Screenshot placeholder_ |
-| Compliance Dashboard | _Screenshot placeholder_ |
-| Dashboard Filters | _Screenshot placeholder_ |
-| CSV Export | _Screenshot placeholder_ |
-| Mobile View | _Screenshot placeholder_ |
+### Viewing a Policy
+![Viewing a Policy](Screenshot/Viewing%20a%20Policy.png)
+
+### Policy Admin Dashboard
+![Policy Admin Dashboard](Screenshot/Policy%20Admin%20Dashboard.png)
+
+### List of Users Who Acknowledged a Policy
+![List of Users Who Acknowledged a Policy](Screenshot/ListOfUserWhoAcknowledgePolicy.png)
 
 ---
 
