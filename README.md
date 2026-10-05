@@ -358,3 +358,11 @@ Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for gui
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## Related
+
+- Article: [SPFx Policy Acknowledgement Center](https://www.billyperalta.com/blog/spfx-policy-acknowledgement-center/?utm_source=github&utm_medium=referral&utm_campaign=spfx_policy_acknowledgement_center&utm_content=readme_article)
+- Custom SharePoint solutions: [SPFx development consulting](https://www.billyperalta.com/services/spfx-development-consultant/?utm_source=github&utm_medium=referral&utm_campaign=spfx_policy_acknowledgement_center&utm_content=readme_service_cta)
+- Author: [Billy Peralta](https://www.billyperalta.com/?utm_source=github&utm_medium=referral&utm_campaign=spfx_policy_acknowledgement_center), SharePoint and Microsoft 365 consultant, Vancouver, BC
